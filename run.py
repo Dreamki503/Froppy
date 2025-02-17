@@ -31,8 +31,8 @@ game_over = False
 score = 0
 fade_counter = 0
 
-if os.path.exists("JUMPY\Assets\high score.txt") :
-    with open("JUMPY\Assets\high score.txt",'r') as file :
+if os.path.exists("Assets\high score.txt") :
+    with open("Assets\high score.txt",'r') as file :
         high_score = int(file.read())
 high_score = 0
 
@@ -45,9 +45,9 @@ font_small = pygame.font.SysFont("Lucida Sans", 20)
 font_big = pygame.font.SysFont("Lucida Sans", 24)
 
 #load images
-bg_img = pygame.image.load(r"assests\ jumpy bcg.png").convert_alpha()
-fropy_img = pygame.image.load(r"assets\ fropy.png").convert_alpha()
-log_img = pygame.image.load(r"assets\ log.png").convert_alpha()
+bg_img = pygame.image.load(r"Assests\jumpy bcg.png").convert_alpha()
+fropy_img = pygame.image.load(r"Assets\fropy.png").convert_alpha()
+log_img = pygame.image.load(r"Assets\log.png").convert_alpha()
 
 #function for displaying text on the screen
 def draw_text(text, font, text_col, x, y) :
