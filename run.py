@@ -15,7 +15,7 @@ SCREEN_HEIGHT = 600
 
 #Creating the screen
 screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
-pygame.display.set_caption("JUMPY")
+pygame.display.set_caption("FROPPY")
 
 #set frame rate
 clock = pygame.time.Clock()
